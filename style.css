@@ -1,86 +1,64 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
-    background-color: #86acb7;
-    color: rgb(58, 42, 42);
-    padding: 1rem 0;
+    background: #4CAF50;
+    color: white;
+    padding: 10px 0;
     text-align: center;
 }
 
-header nav ul {
+nav {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
     list-style: none;
     padding: 0;
 }
 
-header nav ul li {
+nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
-header nav ul li a {
-    color: rgb(65, 46, 46);
+nav ul li a {
+    color: white;
     text-decoration: none;
 }
 
+main {
+    padding: 20px;
+}
+
 section {
-    padding: 2rem;
-    text-align: center;
+    margin-bottom: 20px;
 }
 
-section#about {
-    background-color: #f4f4f4;
+h2 {
+    color: #4CAF50;
 }
 
-section#projects {
-    background-color: #e2e2e2;
-}
-
-.project {
-    margin-bottom: 1rem;
-}
-
-section#contact {
-    background-color: #f4f4f4;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form label {
-    margin-bottom: 0.5rem;
-}
-
-form input,
-form textarea {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    padding: 0.7rem;
-    border: none;
-    border-radius: 4px;
-    background-color: #333;
-    color: white;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #555;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 footer {
-    text-align: center;
-    padding: 1rem 0;
-    background-color: #00a6ff;
+    background: #333;
     color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
